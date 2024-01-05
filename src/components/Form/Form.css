@@ -1,0 +1,74 @@
+.note-form {
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-form h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.note-form button {
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.save-btn {
+  background-color: #059d5b;
+  color: #fff;
+}
+
+.save-btn:disabled {
+  background-color: #52856f;
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+.cancel-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.text-error {
+  color: #ff0000;
+  text-align: left;
+}
+
+.text-error::first-letter {
+  text-transform: capitalize;
+}
+
+.success-message {
+  color: #23f256;
+  text-align: center;
+}

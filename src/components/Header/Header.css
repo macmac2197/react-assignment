@@ -1,0 +1,36 @@
+.header {
+  background-color: #00a19b;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+  position: relative;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.logout-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  background-color: #fff;
+  color: #333;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 1.2em;
+  }
+
+  .logout-button {
+    top: 15px;
+    right: 15px;
+  }
+}
