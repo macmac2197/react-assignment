@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/macmac2197/react-assignment/static/css/main.01274b8f.css",
+    "main.js": "/macmac2197/react-assignment/static/js/main.c0a62216.js",
+    "static/js/787.159cc081.chunk.js": "/macmac2197/react-assignment/static/js/787.159cc081.chunk.js",
+    "index.html": "/macmac2197/react-assignment/index.html",
+    "main.01274b8f.css.map": "/macmac2197/react-assignment/static/css/main.01274b8f.css.map",
+    "main.c0a62216.js.map": "/macmac2197/react-assignment/static/js/main.c0a62216.js.map",
+    "787.159cc081.chunk.js.map": "/macmac2197/react-assignment/static/js/787.159cc081.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01274b8f.css",
+    "static/js/main.c0a62216.js"
+  ]
+}
